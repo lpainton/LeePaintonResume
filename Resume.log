@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.79.1 (TeX Live 2014/W32TeX) (rev 4971)  (format=lualatex 2015.5.13)  7 JUL 2016 16:35
+This is LuaTeX, Version beta-0.79.1 (TeX Live 2014/W32TeX) (rev 4971)  (format=lualatex 2015.5.13)  7 JUL 2016 17:52
  restricted \write18 enabled.
 **Resume.tex
 (./Resume.tex
@@ -281,7 +281,7 @@ luatexbase-attr: luatexbase.attributes["luaotfload@cursbase"] = 6
 luatexbase-attr: luatexbase.attributes["luaotfload@curscurs"] = 7
 luatexbase-attr: luatexbase.attributes["luaotfload@cursdone"] = 8
 luatexbase-attr: luatexbase.attributes["luaotfload@state"] = 9
-luaotfload | main : fontloader loaded in 0.103 seconds
+luaotfload | main : fontloader loaded in 0.076 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -1532,40 +1532,34 @@ LaTeX Font Info:    Font shape `EU2/latinmodern-math.otf(2)/m/n' will be
 luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
  to file:
 luaotfload | load : Lookup/name: "GeorgiaBold" -> "georgiab.ttf"
-luaotfload | load : Lookup/name: "Georgia" -> "georgia.ttf"
-luaotfload | load : Lookup/name: "Georgia" -> "georgia.ttf"
-luaotfload | load : Lookup/name: "Georgia" -> "georgia.ttf"
-luaotfload | load : Lookup/name: "Georgia" -> "georgiaz.ttf"
-luaotfload | load : Lookup/name: "Georgia" -> "georgia.ttf"
-luaotfload | load : Lookup/name: "Georgia" -> "georgiab.ttf"
-luaotfload | load : Lookup/name: "Georgia" -> "georgia.ttf"
+luaotfload | load : Lookup/name: "Georgia Bold" -> "georgiab.ttf"
+luaotfload | load : Lookup/name: "Georgia Bold" -> "georgiab.ttf"
+luaotfload | load : Lookup/name: "Georgia Bold" -> "georgiab.ttf"
+luaotfload | load : Lookup/name: "Georgia Bold" -> "georgiab.ttf"
+luaotfload | load : Lookup/name: "Georgia Bold" -> "georgiab.ttf"
+luaotfload | load : Lookup/name: "Georgia Bold" -> "georgiab.ttf"
+luaotfload | load : Lookup/name: "Georgia Bold" -> "georgiab.ttf"
+luaotfload | load : Lookup/name: "Georgia Bold" -> "georgiab.ttf"
+luaotfload | load : Lookup/name: "GeorgiaBold" -> "georgiab.ttf"
+luaotfload | load : Lookup/name: "GeorgiaBold" -> "georgiab.ttf"
+luaotfload | load : Lookup/name: "GeorgiaBold" -> "georgiab.ttf"
 luaotfload | load : Lookup/name: "Georgia" -> "georgiai.ttf"
-luaotfload | load : Lookup/name: "Georgia" -> "georgia.ttf"
-luaotfload | load : Lookup/name: "Georgia" -> "georgia.ttf"
-luaotfload | load : Lookup/name: "Georgia" -> "georgiab.ttf"
-luaotfload | load : Lookup/name: "Georgia" -> "georgiab.ttf"
-luaotfload | load : Lookup/name: "Georgia" -> "georgiai.ttf"
-luaotfload | load : Lookup/name: "Georgia" -> "georgiai.ttf"
-luaotfload | load : Lookup/name: "Georgia" -> "georgiaz.ttf"
-luaotfload | load : Lookup/name: "Georgia" -> "georgiaz.ttf"
-luaotfload | load : Lookup/name: "Georgia" -> "georgia.ttf"
-luaotfload | load : Lookup/name: "Georgia" -> "georgiai.ttf"
-luaotfload | load : Lookup/name: "Georgia" -> "georgia.ttf"
-luaotfload | load : Lookup/name: "Georgia" -> "georgia.ttf"
+luaotfload | load : Lookup/name: "Georgia Bold" -> "georgiab.ttf"
+luaotfload | load : Lookup/name: "Georgia Bold" -> "georgiab.ttf"
 Underfull \hbox (badness 10000) in paragraph at lines 72--93
 
  []
 
-luaotfload | load : Lookup/name: "Georgia" -> "georgia.ttf"
-luaotfload | load : Lookup/name: "Georgia" -> "georgia.ttf"
+luaotfload | load : Lookup/name: "Georgia Bold" -> "georgiab.ttf"
+luaotfload | load : Lookup/name: "Georgia Bold" -> "georgiab.ttf"
 Underfull \hbox (badness 10000) in paragraph at lines 102--116
 
  []
 
-luaotfload | load : Lookup/name: "Georgia" -> "georgia.ttf"
-luaotfload | load : Lookup/name: "Georgia" -> "georgia.ttf"
-luaotfload | load : Lookup/name: "Georgia" -> "georgia.ttf"
-luaotfload | load : Lookup/name: "Georgia" -> "georgia.ttf"
+luaotfload | load : Lookup/name: "Georgia Bold" -> "georgiab.ttf"
+luaotfload | load : Lookup/name: "Georgia Bold" -> "georgiab.ttf"
+luaotfload | load : Lookup/name: "Georgia Bold" -> "georgiab.ttf"
+luaotfload | load : Lookup/name: "Georgia Bold" -> "georgiab.ttf"
 Underfull \hbox (badness 10000) in paragraph at lines 119--140
 
  []
@@ -1573,18 +1567,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--140
 [1
 
 {c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-luaotfload | load : Lookup/name: "Georgia" -> "georgia.ttf"
-luaotfload | load : Lookup/name: "Georgia" -> "georgia.ttf"
+luaotfload | load : Lookup/name: "Georgia Bold" -> "georgiab.ttf"
+luaotfload | load : Lookup/name: "Georgia Bold" -> "georgiab.ttf"
 Underfull \hbox (badness 10000) in paragraph at lines 148--158
 
  []
 
-luaotfload | load : Lookup/name: "Georgia" -> "georgia.ttf"
-luaotfload | load : Lookup/name: "Georgia" -> "georgia.ttf"
-luaotfload | load : Lookup/name: "Georgia" -> "georgia.ttf"
-luaotfload | load : Lookup/name: "Georgia" -> "georgia.ttf"
-luaotfload | load : Lookup/name: "Georgia" -> "georgia.ttf"
-luaotfload | load : Lookup/name: "Georgia" -> "georgia.ttf"
+luaotfload | load : Lookup/name: "Georgia Bold" -> "georgiab.ttf"
+luaotfload | load : Lookup/name: "Georgia Bold" -> "georgiab.ttf"
+luaotfload | load : Lookup/name: "Georgia Bold" -> "georgiab.ttf"
+luaotfload | load : Lookup/name: "Georgia Bold" -> "georgiab.ttf"
+luaotfload | load : Lookup/name: "Georgia Bold" -> "georgiab.ttf"
+luaotfload | load : Lookup/name: "Georgia Bold" -> "georgiab.ttf"
 Underfull \hbox (badness 10000) in paragraph at lines 159--181
 
  []
@@ -1601,19 +1595,19 @@ Package logreq Info: Writing requests to 'Resume.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 39112 strings out of 494693
+ 39060 strings out of 494693
  125171,1373583 words of node,token memory allocated
  314 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 1 kern, 4 attribute, 42 glue_spec, 4 attrib
 ute_list, 1 write nodes
-   avail lists: 1:56,2:6760,3:6059,4:900,5:12,6:2146,7:56,8:8,9:516,10:979,11:51
+   avail lists: 1:56,2:6678,3:6013,4:907,5:12,6:2110,7:56,8:8,9:516,10:979,11:51
 6,12:231
- 41525 multiletter control sequences out of 65536+600000
- 56 fonts using 9208399 bytes
- 73i,9n,73p,1232b,663s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 41509 multiletter control sequences out of 65536+600000
+ 52 fonts using 8834583 bytes
+ 73i,9n,69p,1232b,663s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/Windows/fonts/georgiab.ttf><c:/Windows/fonts/georgiai.ttf><c:/Windows/fonts/
 georgia.ttf>
-Output written on Resume.pdf (2 pages, 79047 bytes).
+Output written on Resume.pdf (2 pages, 80244 bytes).
 
 PDF statistics: 52 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream
