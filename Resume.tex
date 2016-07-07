@@ -1,0 +1,244 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.2 (3/5/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+\addbibresource{bibliography.bib} % Specify the bibliography file to include publications
+
+\begin{document}
+
+\header{Lee}{Painton}{Software Engineer} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{\color{brown}Con\color{black}tact}
+630 Wickenden Street
+Rear Upper Left
+Providence, RI 02903
+~
+(973) 978 7263
+~
+\href{mailto:lee.painton@gmail.com}{lee.painton@gmail.com}
+%\href{http://www.smith.com}{http://www.smith.com}
+\href{https://www.facebook.com/lee.painton}{facebook/lee.painton}
+\section{\color{violet}Lang\color{black}uages}
+%\centering
+{\LARGE C\#, Java}
+{\large Python, SQL}
+{jQuery, Javascript}
+{\small CSS, HTML}
+{\footnotesize C++, VBScript}
+\section{\color{olive}Tech\color{black}nologies}
+{\LARGE .Net, WPF}
+{\large Winforms, Swing}
+{SQL Server}
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%	SUMMARY SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Summary}
+
+New graduate software developer with an interest in full stack development.  Has some early exposure to freelance software engineering in a practical setting.  Has prior corporate experience working with a team and broad hands-on exposure to computer technology from hardware to software.
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2014--2016}
+{Masters {\normalfont in Computer Science (May 2016)}}
+{Brown University}
+{\emph{GPA: 3.5} \\ Master's project: \href{https://github.com/Evangielis/BURLAP-BAG}{https://github.com/Evangielis/BURLAP-BAG}}
+
+%------------------------------------------------
+
+\entry
+{2012--2014}
+{Bachelor's {\normalfont in Computer Science}}
+{Montclair State University}
+{\emph{Summa Cum Laude}}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\subsection{Software Development}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2014--Now}
+{Freelance}
+{Providence, RI}
+{\emph{Software Engineer} \\
+Developed a Windows-based application suite for business client Metra.  The suite includes Windows-based software tools to interface with the client's Axxess product line (http://axxessinterfaces.com/).  The net benefit to the client was to modernize the software Metra offers its clients and thus increase the marketability of the company's products. }
+
+%------------------------------------------------
+
+\end{entrylist}
+
+\subsection{Information Technology}
+
+\begin{entrylist}
+
+\entry
+{2010--2011}
+{Celgene Corporation}
+{Summit, NJ}
+{\emph{Information Security Consultant} \\
+Worked with the Active Directory security team.  Besides daily processing of tickets and documentation of business processes, also composed .NET scripts to automate the creation of directories, the assignment of security groups and the renewal of expiring accounts.   This helped Celgene in its efforts to automate processes as part of the implementation of an ITIL compliant framework. }
+
+%------------------------------------------------
+
+\entry
+{2007-2009}
+{Becton Dickinson}
+{Franklin Lakes, NJ}
+{\emph{Information Security Analyst} \\
+Worked with a mission critical information security team to process security related tickets controlling access to servers and file systems.  Also created software tools to integrate Lotus Notes with Active Directory and automate the monthly resetting of passwords on UNIX servers.  Net benefit to employer was an increase in the efficiency of existing processes. }
+
+%------------------------------------------------
+\\ \\ \\
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+
+\section{Projects}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2015--2016}
+{Metra App for Windows}
+{\href{https://github.com/Evangielis/MetraApp}{https://github.com/Evangielis/MetraApp}}
+{A commercial application to interface with Metra's line of Axxess radio mod boards.  It was designed primarily with retailers in mind who might need to perform the same firmware updates and steering wheel control configurations multiple times a day.}
+\end{entrylist}
+
+\begin{entrylist}
+\entry
+{2015}
+{ConfusionQuiz}
+{\href{https://github.com/Evangielis/ConfusionQuiz}{https://github.com/Evangielis/ConfusionQuiz}}
+{This application interfaces with an Intel RealSense device and constructs both a video and an XML record of facial cues while the user takes a randomized quiz of designed to confuse them.  Data was stored as a series of time-elapsed frames with recorded integer values for metrics offered by the Intel RealSense API.}
+
+\entry
+{2014-2015}
+{Robocook}
+{\href{https://github.com/h2r/robocook}{https://github.com/h2r/robocook}}
+{A research tool in the form of a game about cooking with the help of a robot.  This was written in JQuery utilizing elements of the GameQuery library.  Uses WebSockets to communicate with an AI agent running BURLAP on a web-server and saves data on user actions.  Was designed to support research being done by Stephanie Tellex's H2R group at Brown University.  A demonstration can be found at \href{http://elzar.cs.brown.edu/robocook/}{http://elzar.cs.brown.edu/robocook/}}
+
+\entry
+{2013}
+{The Assembler}
+{\href{https://github.com/Evangielis/TheAssembler}{https://github.com/Evangielis/TheAssembler}}
+{Educational tool presented in the form of a game designed to teach concepts of logic gates and assembly language to students.  The final project consists of three interlinked modules: a game environment, a logic gate simulator and a fully functional terminal implementing a fully functional version of Madnik's \href{https://en.wikipedia.org/wiki/Little_man_computer.}{little man computer}.}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{communication skills}
+
+%\begin{entrylist}
+
+%------------------------------------------------
+
+%\entry
+%{2011}
+%{Oral Presentation}
+%{California Business Conference}
+%{Presented the research I conducted for my Masters of Commerce degree.}
+
+%------------------------------------------------
+
+%\entry
+%{2010}
+%{Poster}
+%{Annual Business Conference, Oregon}
+%{As part of the course work for BUS320, I created a poster analyzing several local businesses and presented this at a conference.}
+
+%------------------------------------------------
+
+%\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{interests}
+
+%\textbf{professional:} data analysis, company profiling, risk analysis, economics, web design, web app creation, software design, %marketing \textbf{personal:} piano, chess, cooking, dancing, running
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{publications}
+
+%\printbibsection{article}{article in peer-reviewed journal} % Print all articles from the bibliography
+
+%\printbibsection{book}{books} % Print all books from the bibliography
+
+%\begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
+%\nocite{*}
+%\printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, %notkeyword={france}, heading=bibheading]
+%\end{refsection}
+
+%\begin{refsection} % This is a custom heading for those references marked as "inproceedings" and containing "keyword=france"
+%\nocite{*}
+%\printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, %heading=bibheading]
+%\end{refsection}
+
+%\printbibsection{misc}{other publications} % Print all miscellaneous entries from the bibliography
+
+%\printbibsection{report}{research reports} % Print all research reports from the bibliography
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
