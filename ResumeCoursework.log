@@ -1,7 +1,7 @@
-This is LuaTeX, Version beta-0.79.1 (TeX Live 2014/W32TeX) (rev 4971)  (format=lualatex 2015.5.13)  7 JUL 2016 17:58
+This is LuaTeX, Version beta-0.79.1 (TeX Live 2014/W32TeX) (rev 4971)  (format=lualatex 2015.5.13)  12 JUL 2016 18:31
  restricted \write18 enabled.
-**Resume.tex
-(./Resume.tex
+**ResumeCoursework.tex
+(./ResumeCoursework.tex
 LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (./friggeri-cv.cls
@@ -281,7 +281,7 @@ luatexbase-attr: luatexbase.attributes["luaotfload@cursbase"] = 6
 luatexbase-attr: luatexbase.attributes["luaotfload@curscurs"] = 7
 luatexbase-attr: luatexbase.attributes["luaotfload@cursdone"] = 8
 luatexbase-attr: luatexbase.attributes["luaotfload@state"] = 9
-luaotfload | main : fontloader loaded in 0.071 seconds
+luaotfload | main : fontloader loaded in 0.035 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -1269,7 +1269,8 @@ File: english.lbx 2014/06/25 v2.9a biblatex localization (PK/JW/AB)
 )
 \@quotelevel=\count444
 \@quotereset=\count445
- (./Resume.aux)
+
+(./ResumeCoursework.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
@@ -1286,8 +1287,7 @@ LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 26.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 26.
-
-(c:/texlive/2014/texmf-dist/tex/latex/tipa/t3cmr.fd
+ (c:/texlive/2014/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 26.
@@ -1434,9 +1434,9 @@ Package biblatex Info: LuaTeX detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Resume.bbl' not found.
+Package biblatex Info: ... file 'ResumeCoursework.bbl' not found.
 
-No file Resume.bbl.
+No file ResumeCoursework.bbl.
 Package biblatex Info: Reference section=0 on input line 26.
 Package biblatex Info: Reference segment=0 on input line 26.
 *geometry* driver: auto-detecting
@@ -1487,7 +1487,7 @@ LaTeX Info: Redefining \ref on input line 26.
 LaTeX Info: Redefining \pageref on input line 26.
 LaTeX Info: Redefining \nameref on input line 26.
 
-(./Resume.out) (./Resume.out)
+(./ResumeCoursework.out) (./ResumeCoursework.out)
 \@outlinefile=\write5
 luaotfload | load : Lookup/name: "Georgia" -> "georgia.ttf"
 luaotfload | load : Lookup/name: "GeorgiaItalic" -> "georgiai.ttf"
@@ -1586,12 +1586,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 159--181
 [2]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 244.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 244.
- (./Resume.aux)
+ (./ResumeCoursework.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 244.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 244.
-Package rerunfilecheck Info: File `Resume.out' has not changed.
+Package rerunfilecheck Info: File `ResumeCoursework.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package logreq Info: Writing requests to 'Resume.run.xml'.
+Package logreq Info: Writing requests to 'ResumeCoursework.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
@@ -1600,17 +1600,17 @@ Here is how much of LuaTeX's memory you used:
  314 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 1 kern, 4 attribute, 42 glue_spec, 4 attrib
 ute_list, 1 write nodes
-   avail lists: 1:56,2:6690,3:6012,4:912,5:12,6:2114,7:56,8:8,9:516,10:979,11:51
+   avail lists: 1:56,2:6822,3:6062,4:921,5:12,6:2141,7:56,8:8,9:516,10:979,11:51
 6,12:231
  41509 multiletter control sequences out of 65536+600000
- 52 fonts using 8834679 bytes
- 73i,9n,69p,1232b,663s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 52 fonts using 8834535 bytes
+ 73i,9n,69p,1242b,663s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/Windows/fonts/georgiab.ttf><c:/Windows/fonts/georgiai.ttf><c:/Windows/fonts/
 georgia.ttf>
-Output written on Resume.pdf (2 pages, 79889 bytes).
+Output written on ResumeCoursework.pdf (2 pages, 80190 bytes).
 
-PDF statistics: 52 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+PDF statistics: 51 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
  3 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
