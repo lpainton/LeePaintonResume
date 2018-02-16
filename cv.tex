@@ -1,0 +1,144 @@
+%!TEX TS-program = xelatex
+\documentclass[]{friggeri-cv}
+\addbibresource{bibliography.bib}
+
+\begin{document}
+\header{Lee}{ Painton}
+       {Software Engineer}
+
+
+% In the aside, each new line forces a line break
+\begin{aside} % In the aside, each new line forces a line break
+\section{\color{brown}Con\color{black}tact}
+80 Sayles Hill Rd \#1
+Manville, RI 02838
+~
+(401) 408 2844
+~
+\href{mailto:lee.painton@gmail.com}{lee.painton@gmail.com}
+%\href{http://www.smith.com}{http://www.smith.com}
+\href{https://www.facebook.com/lee.painton}{facebook/lee.painton}
+\section{\color{violet}Lang\color{black}uages}
+%\centering
+{\large Go, JS, Java}
+{C\#, SQL, Python}
+\section{\color{olive}Tech\color{black}nologies}
+{Postgres, Mysql, Redis, RabbitMQ, Logstash, Elasticsearch, Docker, Lucene, Git, Swagger, JSON, YAML, XML, Microsoft Bot Framework, Angular, Express.js, RXJS, REST, OAuth 2, JUnit, Mocha, Chai, Mockito, PDF} 
+\end{aside}
+
+\section{Summary}
+
+I am a software engineer with broad interests across the stack.  I have a particular fondness for learning new data structures, studying software architectural patterns and designing performant algorithms.  My masters focus was in AI with a specialization in Reinforcement Learning.  My further interests include Programming Languages, Natural Language Processing, Databases, Cryptography and finding new ways to combine techniques from these disciplines.
+
+\section{Education}
+
+\begin{entrylist}
+
+\entry
+{May 2016}
+{Masters {\normalfont in Computer Science}}
+{Brown University}
+{\emph Master's project: \href{https://github.com/Evangielis/BURLAP-BAG}{https://github.com/Evangielis/BURLAP-BAG}}
+
+\entry
+{May 2014}
+{B.S. {\normalfont in Computer Science}}
+{Montclair State University}
+
+\end{entrylist}
+
+\section{Experience}
+
+\subsection{Software}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{1/17--Now}
+{GE Digital}
+{Providence, RI}
+{\emph{Software Engineer} \\
+Part of the back-end team of GE Digital's Digital Workplace Technologies division, I currently work on all aspects of our enterprise search platform.  I also give short talks on tech topics ranging from Go to software architecture.  I am currently actively engaged in building our back-end ETL framework and defining a generally applicable document type system around our search domain.}
+
+\entry
+{8/16--1/17}
+{Advanced Remarketing Services}
+{Warren, RI}
+{\emph{Software Developer} \\
+Designed and implemented mCam, an auction data mining application that replaced a previous process of recording and playing back auctions by an employee in order to manually record information. Overall value to the company estimated to be \$130,000 annually.  Also designed and implemented an auto value appraisal tool based on sales data aggregated from multiple sources.}
+
+\entry
+{11/14--4/16}
+{Part-time Freelance}
+{Providence, RI}
+{\emph{Freelance Developer} \\
+Developed a Windows-based application suite for business client Metra.  The suite includes Windows-based software tools to interface with the company's Axxess product line (http://axxessinterfaces.com/).  The net benefit to Metra was to modernize the software Metra offers its clients and thus increase the marketability of the company's products. }
+
+\end{entrylist}
+%------------------------------------------------
+\begin{entrylist}
+\entry
+{2010--2011}
+{Celgene Corporation}
+{Summit, NJ}
+{\emph{Information Security Consultant} \\
+Worked with the Active Directory security team.  Besides daily processing of tickets and documentation of business processes, also composed .NET scripts to automate the creation of directories, the assignment of security groups and the renewal of expiring accounts.   This helped Celgene in its efforts to automate processes as part of the implementation of an ITIL compliant framework.}
+
+%------------------------------------------------
+\\ \\ \\
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+
+\section{Projects}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{6/17--8/14}
+{NextGen Search}
+{Source is proprietary}
+{Composed a library of microservices, written in golang and used to spawn docker containers which retrieve data about employees from various warehouses on the GE datalake.  The services coordinate via memcache to reduce the runtimes of themselves and other related services.  All services report to a rabbitMQ server which acts in concert with Logstash as a pseudo-api, adding to and deleting documents from an ElasticSearch cluster as the services report employee status changes.}
+
+\entry
+{Jun -- Aug}
+{Skycam}
+{https://github.com/Evangielis/SkyCam}
+{A fully backend version of MCAM (see below) using node.js and rxjs to fully automate the process of mining data from the target.}
+
+\entry
+{1/17--3/17}
+{System Status X}
+{Source is proprietary}
+{System Status is a full-stack application which provides a minimalistic view of and notification platform for high priority system outages via an iOS app.  System Status X, a component of System Status, is a cross-platform rewrite of the original app using Angular 4 and Ionic 3.  It's can be consumed as either a progressive web-app or as a stand-alone application for android or iOS.  I maintain the former and was part of a team of two that built the latter.}
+
+\entry
+{9/16--10/16}
+{MCAM}
+{Source available on request}
+{A full-stack application that offers a client-side chrome extension enabling the user to mine data from an auction website. The user selects channels to which the app subscribes via websockets. Information is aggregated over time and stored in the local IndexedDB for deferred export to a jsp endpoint.  Once hitting the endpoint the data is validated then saved to the database.}
+
+\entry
+{11/16--2/17}
+{Metra App}
+{\href{https://github.com/Evangielis/MetraApp}{https://github.com/Evangielis/MetraApp}}
+{A commercial application to interface with Metra's line of Axxess radio mod boards.  It was designed primarily with retailers in mind who might need to perform the same firmware updates and steering wheel control configurations multiple times a day.}
+
+\entry
+{2014-2015}
+{Robocook}
+{\href{https://github.com/h2r/robocook}{https://github.com/h2r/robocook}}
+{A research tool in the form of a game about cooking with the help of a robot.  This was written in JQuery utilizing elements of the GameQuery library.  Uses WebSockets to communicate with an AI agent running BURLAP on a web-server and saves data on user actions.  Was designed to support research being done by Stephanie Tellex's H2R group at Brown University.  A demonstration can be found at \href{http://elzar.cs.brown.edu/robocook/}{http://elzar.cs.brown.edu/robocook/}}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+\end{document}
